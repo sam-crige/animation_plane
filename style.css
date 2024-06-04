@@ -22,7 +22,7 @@ section{
     animation
 }
 audio{
-    display:none;
+    display:;
 }
 @keyframes pla{
     0%{
@@ -34,4 +34,6 @@ audio{
     50%{
         transform: translate(-1800px,-600px);
     }
-}
+    100%{
+        transform: translate(70000px);
+    }
